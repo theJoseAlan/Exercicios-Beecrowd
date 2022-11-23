@@ -14,7 +14,7 @@ public class ex1045 {
         double c = teclado.nextDouble();
 
         if(b>a){
-            //trocando o calor das variaveis para o A ser o maior
+            //trocando o valor das variaveis para o A ser o maior
             aux=b;
             a = b;
             b = aux;
@@ -25,6 +25,7 @@ public class ex1045 {
             c = aux;
         }
 
+        //Aqui ele calcula a potência
         a2 = Math.pow(a, 2);
         bc = Math.pow(b, 2) + Math.pow(c, 2);
 
