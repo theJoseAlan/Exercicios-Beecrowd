@@ -23,9 +23,5 @@ public class ex1036 {
             System.out.printf("R1 = %.5f\n", x1);
             System.out.printf("R2 = %.5f\n", x2);
         }
-        	
-        
-        
-       
     }
 }
