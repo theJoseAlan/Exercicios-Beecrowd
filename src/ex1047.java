@@ -27,9 +27,7 @@ public class ex1047 {
 		}
 		
 		System.out.println("Hora: "+contH);
-		
-		
-		
+
 		
 		//System.out.println("O JOGO DUROU "+reH+" HORA(S) E "+reM+" MINUTO(S)");
 		

@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 import javax.swing.SpringLayout;
 
 import java.lang.Math;
@@ -12,7 +11,6 @@ public class ex1046 {
 
         int horainicial = teclado.nextInt();
         int horafinal = teclado.nextInt();
-
         
         if(horainicial > horafinal){
             System.out.println("O JOGO DUROU "+(24-(horainicial-horafinal))+" HORA(S)");
