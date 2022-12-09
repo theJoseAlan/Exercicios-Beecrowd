@@ -5,7 +5,7 @@ public class ex1145 {
 
 
         Scanner input = new Scanner(System.in);
-        
+
         int x = input.nextInt();
         int y = input.nextInt();
         int cont = 1;
