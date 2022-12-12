@@ -4,34 +4,19 @@ public class ex1047 {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		
-		int cont=0;
-		int contH=0;
-		
-		int horainicial = input.nextInt();
-		int minutoinicial = input.nextInt();
-		int horafinal = input.nextInt();
-		int minutofinal = input.nextInt();
-		
-		while (cont!=horafinal) {
-			
-			contH++;
-			
-			cont=horainicial+1;
-			
-			if(cont==24) {
-				cont=0;
-			}
-			
-			
-		}
-		
-		System.out.println("Hora: "+contH);
 
-		
-		//System.out.println("O JOGO DUROU "+reH+" HORA(S) E "+reM+" MINUTO(S)");
-		
-		
+		int a, b, c, d;
+		int dif;
+
+		a=input.nextInt();
+		c=input.nextInt();
+
+		b=input.nextInt();
+		d=input.nextInt();
+
+		dif = ((b*60)+d) - ((a*60)+c);
+		if(dif<=0) dif += 24*60;
+		System.out.println("O JOGO DUROU "+dif/60+" HORA(S) E "+dif%60+" MINUTO(S)");
 	}
 
 }
