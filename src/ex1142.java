@@ -1,7 +1,6 @@
 import java.util.Scanner;
 public class ex1142 {
     public static void main(String[] args) {
-<<<<<<< HEAD
         Scanner input =  new Scanner(System.in);
 
         int cont=1;
@@ -30,7 +29,7 @@ public class ex1142 {
             cont2=0;
         }
 
-=======
+/*
         Scanner input = new Scanner(System.in);
 
         int num = input.nextInt();
@@ -46,7 +45,7 @@ public class ex1142 {
             cont+=1;
 
         }
->>>>>>> cd54440342d2ab33fc3a0f683d09f8d58cd56ce7
+*/
 
     }
 }
