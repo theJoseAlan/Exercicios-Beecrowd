@@ -4,30 +4,25 @@ public class ex1159 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        while (true){
-            int x = input.nextInt();
+        int x, j, k, soma = 0;
 
-            int soma = 0;
-
-            int par = 0;
-
-            for(int i = 0; i<5;i++){
-
-                par = x+i;
-
-                if(par%2==0){
-                    soma+=par;
-                }else if(x%2==0){
-                    soma+=x+par;
+        do{
+            x = input.nextInt();
+            if (x == 0){
+                return;
+            }
+            for (k = 0, j = x; k < 5; j++)
+            {
+                if (j % 2 == 0)
+                {
+                    soma += j;
+                    k++;
                 }
-
             }
             System.out.println(soma);
+            soma = 0;
 
-            if(x==0){
-                break;
-            }
-        }
+        } while (x != 0);
 
     }
 }

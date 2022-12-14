@@ -11,17 +11,10 @@ public class ex1144 {
 
         n = input.nextInt();
 
-        for (i = 1; i <= n; i++) {
-            System.out.printf("%.0f",Math.pow(i,2)," ");
-            for(j =1; j<=3; j++){
-                System.out.printf("%.0f",Math.pow(j,2)," ");
-                for (int k =1; k<=3; k++){
-                    System.out.printf("%.0f",Math.pow(k,2)," ");
-                }
-                System.out.println();
-            }
-            System.out.println();
+        for (i = 1; i <= n; i++)
+        {
+            System.out.printf("%d %.0f %.0f\n", i, pow(i, 2), pow(i, 3));
+            System.out.printf("%d %.0f %.0f\n", i, pow(i, 2) + 1, pow(i, 3) + 1);
         }
-        System.out.println();
     }
 }
