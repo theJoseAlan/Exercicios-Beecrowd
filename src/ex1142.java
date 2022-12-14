@@ -31,6 +31,10 @@ public class ex1142 {
 
 /*
         Scanner input = new Scanner(System.in);
+=======
+
+        /*Scanner input = new Scanner(System.in);
+>>>>>>> 7fdc0813377f4c17e14b86c83ce61240496f4b2a
 
         int num = input.nextInt();
         int cont = 0;
@@ -44,8 +48,11 @@ public class ex1142 {
             System.out.println(" PUM");
             cont+=1;
 
+<<<<<<< HEAD
         }
-*/
+        }*/
+
+
 
     }
 }
